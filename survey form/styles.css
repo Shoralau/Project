@@ -1,0 +1,75 @@
+body {
+  width: 100%;
+  font-family: Poppins;
+  Font-size: 16px;
+  background-image: url(https://i.pinimg.com/736x/90/e9/ad/90e9ad158f3a83c2db2757850fb20d75.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white
+}
+
+.survey {
+  width: 80%;
+  background-color: rgba(0, 0, 0, 0.8);
+  margin: 50px auto;
+  max-width: 500px;
+  min-width: 300px;
+  border-radius: 12px;
+  padding: 30px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+p {
+  margin-top: -15px;
+}
+
+h1, p {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  width: 100%;
+  border: 1px solid white;
+  margin: 10px 0 10px 0;
+  min-height: 2em;
+  border-radius: 4px;
+}
+
+textarea {
+  min-height: 6em;
+}
+
+fieldset {
+  border: 0;
+}
+
+.inline {
+  width: unset;
+  min-width: 15px;
+  vertical-align: middle;
+  margin: 0 0.5em 0 0;
+}
+
+
+
+.comments {
+  margin-top: 40px;
+}
+
+input[type="submit"] {
+  display: block;
+  height: 40px;
+  width: 95%;
+  margin: 1em auto;
+  background-color: purple;
+  border-color: purple;
+  color: white;
+}
